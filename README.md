@@ -14,6 +14,7 @@ En Fullgaming encontrarás todo lo que compone la PC Gamers de tus sueños. Cono
 <a href="https://www.malditohard.com.ar/">Estetica</a>
 <a href="https://www.hardgamers.com.ar/">Funcionalidades</a>
 
+
 <p>https://www.fullh4rd.com.ar </p>
 <p>https://www.malditohard.com.ar </p>
 <p>https://www.hardgamers.com.ar </p>
