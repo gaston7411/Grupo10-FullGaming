@@ -13,9 +13,18 @@ En Fullgaming encontrarás todo lo que compone la PC Gamers de tus sueños. Cono
 <a href="https://www.malditohard.com.ar/">Productos y servicios</a>
 <a href="https://www.malditohard.com.ar/">Estetica</a>
 <a href="https://www.hardgamers.com.ar/">Funcionalidades</a>
+
+<p>https://www.fullh4rd.com.ar </p>
+<p>https://www.malditohard.com.ar </p>
+<p>https://www.hardgamers.com.ar </p>
+<p>https://www.maximus.com.ar </p>
+<p>https://www.xt-pc.com.ar </p>
+
+<p>Estos sitios los tomamos de referecias por el diseño que tienen las paginas, nos parecio lo mas completos con respecto al proyecto</p>
+
 <h5>Integrantes</h5>
 <p>Nuestro equipo de trabajo esta conformado por cuatro personas</p>
 <p>Lucas Ibañez, San Miguel de Tucuman,Tucuman.</p>
 <p>Juan Vega, Moron, Buenos Aires.</p>
-<p>Gaston Rodriguez, Buenos Aires.</p>
+<p>Gaston Rodriguez,Berazategui, Buenos Aires.</p>
 <p>Juan Gomez, San Miguel, Buenos Aires.</p>
