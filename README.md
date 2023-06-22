@@ -13,3 +13,9 @@ En Fullgaming encontrarás todo lo que compone la PC Gamers de tus sueños. Cono
 <a href="https://www.malditohard.com.ar/">Productos y servicios</a>
 <a href="https://www.malditohard.com.ar/">Estetica</a>
 <a href="https://www.hardgamers.com.ar/">Funcionalidades</a>
+<h5>Integrantes</h5>
+<p>Nuestro equipo de trabajo esta conformado por cuatro personas
+   Lucas Ibañez, San Miguel de Tucuman,Tucuman.
+   Juan Vega, Moron, Buenos Aires.
+   Gaston Rodriguez, Buenos Aires.
+   Juan Gomez, San Miguel, Buenos Aires. </p>
