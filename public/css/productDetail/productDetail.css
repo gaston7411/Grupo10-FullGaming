@@ -1,0 +1,129 @@
+#content__item{
+    height: 360px;
+    width: 360px;
+    overflow: hidden;
+}
+.product__main__box_producto__carrusel{
+    height: 100%;
+    position: relative;
+}
+.tarjetaCarrusel{
+    height: 100%;
+}
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#tarjeta-1 img{
+    width: 100%;
+    height: 100%;    
+}
+#tarjeta-2 img{
+    width: 100%;
+    height: 100%; 
+}
+#tarjeta-3 img{
+    width: 100%;
+    height: 100%; 
+}
+#content__puntos{
+    width: 360px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+#content__puntos a{
+    padding: 5px;
+}
+.product__main__box_producto h1{
+    text-align: left;
+    font-size: 45px;
+}
+
+.product__main__box_producto__article--description{
+    display: none;
+}
+.product__main__box_producto__pagos h1{
+    display: none;
+}
+.product__main__box_producto__pagos h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.product__main__box_producto__pagos__box-precio{
+    display: flex;
+    width: 360px;
+    justify-content: space-evenly;
+}
+.product__main__box_producto__pagos__box-precio p{
+    width: 40%;
+}
+.product__main__box_producto__pagos__box-precio h4{
+    font-size: 45px;
+}
+.product__main__box_producto__pagos__box-tarjetas-cars{
+    display: flex;
+    width: 360px;
+    margin-left: 15px;
+}
+.product__main__box_producto{
+    margin: 15px;
+}
+.product__main__box_producto__pagos{
+    margin: 15px;
+}
+.product__main__box_producto__pagos__box-tarjetas p{
+     font-size: 20px;
+     margin-top: 10px;
+}
+.product__main__box_producto__pagos__box-tarjetas-cars h4{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.product__main__box_producto__pagos__box-tarjetas-cars-box-cuotas{
+    display: flex;
+    margin-bottom: 15px;
+}
+.product__main__carrito{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 280px;
+    margin-top: 40px;
+}
+.product__main__carrito-menos a{
+    font-size: 30px;
+}
+.product__main__carrito-mas a{
+    font-size: 50px;
+}
+.product__main__carrito-number{
+    font-size: 50px;
+}
+.product__main__carrito-comprar{
+    margin-top: 10px;
+}
+.product__main__carrito-comprar a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+.product__main__article{
+    margin-top: 55px;
+    text-align: center;
+}
+.product__main__article p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.product__main__otrosProductos h3{
+    text-align: center;
+    font-size: 35px;
+}
