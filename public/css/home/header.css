@@ -1,3 +1,42 @@
+/*header movil*/
+
+.nav-bar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%);
+    background-image: url(/img/fondo.png);
+    background-size: cover;
+    background-position: center ;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.nav-bar a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.nav-bar a img {
+    width: 100%;
+}
+
+.logo-nav {
+    display: flex;
+    height: 30px;
+    width: 70px;
+    text-align: top;
+}
+
+
+
+/*------------*/
 .home-header {
     display: none;
 }
@@ -8,24 +47,35 @@
 
 .home-header{
     background-image: url(/img/fondo.png);
+    background-size: cover;
+    background-position: center ;
     width: 100%;
 }
 .home-header-logo{
     display: flex;
-    justify-content: flex-start;
-    width: 40px;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+}
+.loguito {
+    width: 10%;
 }
 
 .home-header-superior {
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
     padding-top: 15px;
 
 }
 
+
 .fonta {
     font-size: 100%;
+}
+
+.fonta a {
+    margin-right: 15px;
 }
 
 .fonta .fa-bell {
@@ -54,7 +104,7 @@
 
 .home-header-buscador input[type="text"] {
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
     padding: 6px;
     border: none;
     border-radius: 50px;
@@ -64,24 +114,40 @@
 /*navegacion*/
 .home-nav-header {
     background-image: url(/img/fondo.png);
+    background-size: cover;
+    background-position: center;
     padding: 6px 10px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0,5);
 }
 
 .home-nav-header ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-transform: uppercase;
     gap: 10px;
 }
 
 .home-nav-header ul li a {
-    font-size: 8px;
+    font-size: 15px;
     color: #ffffff;
 }
- /*navbarflotante*/
 
- @media (min-width: 450px){
+ @media (min-width: 480px){
+
+    .nav-bar {
+
+        display: none;
+    }
+
+    .home-header-superior {
+        display: flex;
+    }
+
+    .home-nav-header ul li a {
+        font-size: 8px;
+        color: #ffffff;
+    }
+
     .home-header {
         display: grid;
     }
@@ -90,5 +156,22 @@
         display: grid;
     }
 
+    .fonta a {
+        margin-right: 2px;
+    }
+
     
+ }
+
+ @media (min-width: 1200px){
+
+    .home-nav-header ul li a {
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+
+    .fonta a {
+        margin-right: 15px;
+    }
  }
