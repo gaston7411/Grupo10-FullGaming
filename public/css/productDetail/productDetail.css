@@ -130,9 +130,11 @@
 }
 .product__main__carrito-menos a{
     font-size: 40px;
+    color: black;
 }
 .product__main__carrito-mas a{
     font-size: 50px;
+    color: black;
 }
 .product__main__carrito-number{
     font-size: 50px;
