@@ -1,3 +1,15 @@
+.body_box{
+    background-color: white;
+}
+.product__header__icons{
+    margin: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.product__header__icons a{
+    font-size: 25px;
+    color: black;
+}
 #content__item{
     height: 360px;
     width: 360px;
@@ -20,6 +32,9 @@
     justify-content: space-between;
     padding: 20px;
 }
+.flechasCarrusel a{
+    color: black;
+}
 #tarjeta-1 img{
     width: 100%;
     height: 100%;    
@@ -34,12 +49,14 @@
 }
 #content__puntos{
     width: 360px;
-    background-color: gray;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 #content__puntos a{
     padding: 5px;
+    color: black;
+    background-color: white;
 }
 .product__main__box_producto h1{
     text-align: left;
@@ -59,18 +76,27 @@
 .product__main__box_producto__pagos__box-precio{
     display: flex;
     width: 360px;
-    justify-content: space-evenly;
+    
 }
 .product__main__box_producto__pagos__box-precio p{
+    margin-left: 10px;
     width: 40%;
 }
 .product__main__box_producto__pagos__box-precio h4{
-    font-size: 45px;
+    font-size: 40px;
 }
 .product__main__box_producto__pagos__box-tarjetas-cars{
     display: flex;
     width: 360px;
-    margin-left: 15px;
+    
+}
+.product__main__box_producto__pagos__box-tarjetas-cars-box{
+    display: flex;
+    
+}
+.product__main__box_producto__pagos__box-tarjetas-cars-box a{
+    font-size: 30px;
+    margin: 10px;
 }
 .product__main__box_producto{
     margin: 15px;
@@ -125,5 +151,71 @@
 }
 .product__main__otrosProductos h3{
     text-align: center;
-    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
+main section h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.padre-articulos {
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+
+}
+.product__main__otrosProductos{
+    margin: auto;
+    width: 80%;
+}
+.home-main-articulos {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.home-main-articulos img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 7px;
+}
+
+.home-main-articulos p {
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.mensaje-comprar {
+    opacity: 0;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #572364;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 25px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+  
+  .home-main-articulos:hover .mensaje-comprar {
+    opacity: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    bottom: 0;
+}
+
